@@ -32,17 +32,6 @@ def is_word(word_list, word):
     word = word.strip(" !@#$%^&*()-_+={}[]|\:;'<>?,./\"")
     return word in word_list
 
-
-# def get_string():
-#     """
-#     Returns: encrypted text from a file if given.
-#     """
-#     f = open("story.txt", "r")
-#     story = str(f.read())
-#     f.close()
-#     return story
-
-
 WORDLIST_FILENAME = 'words.txt'
 
 
@@ -352,7 +341,7 @@ def main():
             time.sleep(2)
             print('\t\t\t\tBreaking the code....', end="")
             time.sleep(3)
-            print('..litle more..')
+            print('..little more..')
             time.sleep(1)
             print('\t\t\t\t', end= "")
             for i in range(50):
